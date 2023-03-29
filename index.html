@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="w-full flex-col h-screen bg-black flex">
+      <!-- navbar section  -->
+
+      <div class="w-full justify-between h-[15%] p-8 flex">
+        <span
+          class="font-bold w-[30%] items-center flex text-3xl mt-[20px] text-red-600"
+          >NETFLIX</span
+        >
+
+        <!-- right span -->
+        <span class="w-[30%] flex justify-evenly items-center text-white">
+          <!-- english btn  -->
+          <span>
+            <select
+              name=" english"
+              class="bg-inherit border-none outline-none cursor-pointer"
+              id=""
+            >
+              <option class="text-black">English</option>
+              <option class="text-black">French</option>
+              <option class="text-black">Hindi</option>
+              <option class="text-black">urdu</option>
+            </select>
+          </span>
+
+          <!-- sign in span  -->
+          <span>
+            <button class="text-white border-2 p-1.5">Sign in</button>
+          </span>
+        </span>
+      </div>
+      <div class="w-full h-[80%]">
+        <span
+          class="items-center w-[100%] h-[60%] justify-center items-center text-white flex flex-col font-bold text-[50px]"
+        >
+          Unlimited movies , TV Shows and More .
+        </span>
+        <span
+          class="items-center w-[100%] h-[5%]justify-center items-center text-white flex flex-col text-[30px]"
+        >
+          Watch anywhere, Cancel anytime.</span
+        >
+        <br />
+        <span
+          class="items-center w-[100%] h-[5%]justify-center items-center text-white flex flex-col text-[20px]"
+          >Ready to watch? Enter your email to create or restart your
+          membership. </span
+        ><br />
+        <span class="w-full h-[100px] flex justify-evenly">
+          <span
+            class="w-[400px] h-[50px] flex justify-center items-center text-black"
+          >
+            <input
+              class="outline-none w-full p-2"
+              type="email"
+              placeholder="Enter Your Mail ID "
+            />
+            <button
+              class="text-white text-xl bg-red-700 w-[200px] h-[40px] ml-[10px]"
+            >
+              Get Started>
+            </button>
+          </span>
+        </span>
+      </div>
+    </section>
+
+    <!-- landing main page  -->
+  </body>
+</html>
