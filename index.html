@@ -44,7 +44,7 @@
       'phone': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
 
-      'iphone': {'max': '400px'},
+      'sphone': {'max': '400px'},
       // => @media (max-width: 639px) { ... }
     },
           }
@@ -88,12 +88,12 @@
       </div>
       <div class="w-full  h-[80%]">
         <span
-          class="items-center phone:text-center  w-[100%] h-[60%] justify-center items-center text-white flex flex-col font-bold text-[50px]"
+          class="items-center sphone:text-center  w-[100%] h-[60%] justify-center items-center text-white flex flex-col font-bold text-[50px]"
         >
           Unlimited movies , TV Shows and More .
         </span>
         <span
-          class="items-center w-[100%] h-[5%]justify-center items-center text-white flex flex-col text-[30px]"
+          class="items-center w-[100%] h-[5%] sphone:text-center justify-center items-center text-white flex flex-col text-[30px]"
         >
           Watch anywhere, Cancel anytime.</span
         >
@@ -126,17 +126,17 @@
       <div class="w-full h-50% phone:flex-col phone:justify-evenly flex justify-between p-8px  items-center">
       <div class="w-[50%] phone:w-[90%] phone:text-center phone:h-[50%] h-[80%] flex flex-col justify-center items-center">
         <span
-          class="w-[70%] h-[20%] phone:w-[100%] flex text-[50px] font-bold justify-center text-white"
+          class="w-[70%] h-[20%] sphone:h-[50%] phone:w-[100%] flex text-[50px] font-bold justify-center text-white"
           >Enjoy on your TV.</span
         >
         <span
-          class="w-[70%] h-[20%] ml-[5%] flex text-[23px] justify-center text-white"
+          class="w-[70%] sphone:h-[50%] h-[20%] ml-[5%] flex text-[23px] justify-center text-white"
           >Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
           players and more.
         </span>
       </div>
    
-        <img  class="w-[400px] rounded-xl  h-[200px] mr-[10%] border-2 hover:scale-125 transition-all ease-in duration-200  "src="./netflix.gif"></span>
+        <img  class="w-[400px] rounded-xl  h-[200px] mr-[10%]  phone:w-[80%] phone:h-[20%] phone:ml-[25px] border-2 hover:scale-125 transition-all ease-in duration-200  "src="./netflix.gif"></span>
       
       </div>
     
@@ -147,13 +147,13 @@
       
    
         <img  class="mr-[10%] border-2 phone:h-[50%]  phone:mb-[60px] phone:text-center hover:scale-110 transition-all ease-in duration-200  "src="./strange things.jpg">
-        <div class="w-[50%] h-[80%]  phone:w-[90%] phone:text-center flex flex-col justify-center items-center">
+        <div class="w-[50%] h-[80%]  phone:w-[90%] phone:h-[50%] phone:text-center flex flex-col justify-center items-center">
           <span
-            class="w-[70%] h-[50%] flex text-[50px] phone:h-[30%] phone:w-full font-bold justify-center items-center text-white"
+            class="w-[70%] h-[50%] flex text-[50px] phone:h-[50%] phone:text-[42px] phone:w-full  font-bold justify-center items-center text-white"
             >Download your shows to watch offline.</span
           >
           <span
-            class="w-[70%] h-[30%] phone:w-full flex text-[23px] justify-center text-white"
+            class="w-[70%] h-[30%] phone:w-full flex  text-[23px] justify-center text-white"
             >Save your favourites easily and always have something to watch.
           </span></div>
       </div>
@@ -162,14 +162,14 @@
 
     <section class="w-full h-screen phone:justify-evenly border-b-4 border-b-gray-300 bg-black flex">
       <div class="w-full phone: h-[30% ]flex justify-between phone:flex-col  items-center">
-      <div class="w-[80%] phone:h-[50%] phone:w-full h-[80%] flex flex-col justify-center items-center">
+      <div class="w-[80%] phone:h-[50%] phone:w-full h-[80%] phone:items-start  flex flex-col justify-center items-center">
         <span class="w-[90%] h-[80%] phone:h-[50%] flex flex-col">
         <span
-          class="w-[90%]  phone:h-[30%] phone:w-full  h-[30%]  flex text-[50px] font-bold justify-center text-white"
+          class="w-[90%]  phone:h-[50%] phone:text-[42px] phone:text-center  phone:w-full  h-[30%]  flex text-[50px] font-bold justify-center text-white"
           >Watch everywhere.</span
         >
         <span
-          class="w-[70%] phone:h-[40%] phone:w-[80%] ml-[13%] flex text-[23px] justify-center text-white"
+          class="w-[70%] phone:h-[50%] phone:w-full phone:text-start  ml-[13%] flex text-[23px] justify-center text-white"
           >Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
         </span></div>
        
@@ -183,7 +183,7 @@
       <div class="w-full phone:flex-col  phone:justify-center h-50% flex justify-between justify-evenly p-8px  items-center">
       
         
-        <img  class=" mr-[10%] border-2 hover:scale-110 transition-all ease-in duration-200  "src="./children.jpg"></span>
+        <img  class=" mr-[10%] phone:ml-[10%] border-2 hover:scale-110 transition-all ease-in duration-200  "src="./children.jpg"></span>
         <div class="w-[50%] h-[80%] phone:w-full  phone:h-[60%] flex flex-col justify-center items-center">
           <span 
             class="w-[70%] phone:w-[90%] phone:text-center phone:p-[10px] flex-col flex text-[50px] font-bold justify-center items-start text-white"
