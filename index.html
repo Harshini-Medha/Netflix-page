@@ -55,7 +55,7 @@
 
   </head>
   <body>
-    <section class="w-full flex-col border-b-4 border-b-gray-200 h-screen bg-black flex">
+    <section class="w-full flex-col  phone:h-screen border-b-4 border-b-gray-200 h-screen bg-black flex">
       <!-- navbar section  -->
 
       <div class="w-full  justify-between h-[15%] p-8 flex">
@@ -65,7 +65,7 @@
         >
 
         <!-- right span -->
-        <span class="w-[30%] flex justify-evenly items-center text-white">
+        <span class="w-[30%] phone:w-[50%] flex justify-evenly items-center text-white">
           <!-- english btn  -->
           <span>
             <select
@@ -82,36 +82,36 @@
 
           <!-- sign in span  -->
           <span>
-            <button class="text-white border-2 p-1.5">Sign in</button>
+            <button class="text-white phone:w-full  phone:bg-red-600 border-2 p-1.5">Sign in</button>
           </span>
         </span>
       </div>
       <div class="w-full  h-[80%]">
         <span
-          class="items-center sphone:text-center  w-[100%] h-[60%] justify-center items-center text-white flex flex-col font-bold text-[50px]"
+          class="items-center phone:text-center  phone:text-[32px]   w-[100%] h-[60%] justify-center items-center text-white flex flex-col font-bold text-[50px]"
         >
           Unlimited movies , TV Shows and More .
         </span>
         <span
-          class="items-center w-[100%] h-[5%] sphone:text-center justify-center items-center text-white flex flex-col text-[30px]"
+          class="items-center w-[100%] h-[5%] sphone:text-center  phone:text-[23px]  phone:mt-[-100px] justify-center items-center text-white flex flex-col text-[30px]"
         >
           Watch anywhere, Cancel anytime.</span
         >
         <br />
         <span
-          class="items-center phone:text-center w-[100%] h-[5%]justify-center items-center text-white flex flex-col text-[20px]"
+          class="items-center phone:text-center phone:text-[23px] phone:w-[80%] phone:ml-[24px] w-[100%] h-[5%]justify-center items-center text-white flex flex-col text-[20px]"
           >Ready to watch? Enter your email to create or restart your
           membership. </span
         ><br />
-        <span class="w-full h-[100px] flex justify-evenly">
+        <span class="w-full h-[100px] flex  justify-evenly">
           <span
-            class="w-[400px] h-[50px] flex justify-center items-center text-black"
+            class="w-[400px] h-[50px]  phone:w-[300px] flex justify-center items-center text-black"
           >
             <input
               class="outline-none w-full p-2"
               type="email"
               placeholder="Enter Your Mail ID "
-            />
+            /> 
             <button
               class="text-white phone:w-[100px] phone:text-sm phone:ml-[4px] hover:scale-110 transition-all ease-in duration-200 text-xl bg-red-700 w-[200px] h-[40px] ml-[10px]"
             >
@@ -123,21 +123,21 @@
     </section>
 
     <section class="w-full h-screen border-b-4 border-b-gray-300  bg-black flex">
-      <div class="w-full h-50% phone:flex-col phone:justify-evenly flex justify-between p-8px  items-center">
+      <div class="w-full h-50%  phone:justify-center phone:items-center phone:flex-col phone:justify-evenly flex justify-between p-8px  items-center">
       <div class="w-[50%] phone:w-[90%] phone:text-center phone:h-[50%] h-[80%] flex flex-col justify-center items-center">
         <span
-          class="w-[70%] h-[20%] sphone:h-[50%] phone:w-[100%] flex text-[50px] font-bold justify-center text-white"
+          class="w-[70%] h-[20%] phone:h-[30%] phone:text-[32px] phone:w-[100%] flex text-[50px] font-bold justify-center text-white"
           >Enjoy on your TV.</span
         >
         <span
-          class="w-[70%] sphone:h-[50%] h-[20%] ml-[5%] flex text-[23px] justify-center text-white"
+          class="w-[70%] phone:h-[20%] phone:mt-[-30px] phone:w-full h-[20%] ml-[5%] flex text-[23px] justify-center text-white"
           >Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
           players and more.
         </span>
       </div>
    
-        <img  class="w-[400px] rounded-xl  h-[200px] mr-[10%]  phone:w-[80%] phone:h-[20%] phone:ml-[25px] border-2 hover:scale-125 transition-all ease-in duration-200  "src="./netflix.gif"></span>
-      
+        <img  class="w-[400px] rounded-xl phone:mt-[-60px] h-[200px] mr-[10%]  phone:w-[80%] phone:h-[20%] phone:ml-[25px] border-2 hover:scale-125 transition-all ease-in duration-200  "src="./netflix.gif"></span>
+    
       </div>
     
     </section>
@@ -149,11 +149,11 @@
         <img  class="mr-[10%] border-2 phone:h-[50%]  phone:mb-[60px] phone:text-center hover:scale-110 transition-all ease-in duration-200  "src="./strange things.jpg">
         <div class="w-[50%] h-[80%]  phone:w-[90%] phone:h-[50%] phone:text-center flex flex-col justify-center items-center">
           <span
-            class="w-[70%] h-[50%] flex text-[50px] phone:h-[50%] phone:text-[42px] phone:w-full  font-bold justify-center items-center text-white"
+            class="w-[70%] h-[50%] flex text-[50px] phone:h-[50%] phone:text-[32px] phone:w-[80%] font-bold justify-center items-center text-white"
             >Download your shows to watch offline.</span
           >
           <span
-            class="w-[70%] h-[30%] phone:w-full flex  text-[23px] justify-center text-white"
+            class="w-[70%] h-[30%] phone:w-full flex phone:text-[20px]  text-[23px] justify-center text-white"
             >Save your favourites easily and always have something to watch.
           </span></div>
       </div>
@@ -161,19 +161,19 @@
    
 
     <section class="w-full h-screen phone:justify-evenly border-b-4 border-b-gray-300 bg-black flex">
-      <div class="w-full phone: h-[30% ]flex justify-between phone:flex-col  items-center">
-      <div class="w-[80%] phone:h-[50%] phone:w-full h-[80%] phone:items-start  flex flex-col justify-center items-center">
-        <span class="w-[90%] h-[80%] phone:h-[50%] flex flex-col">
+      <div class="w-full phone:h-[80%] flex justify-between phone:flex-col 2xl:flex-row  items-center">
+      <div class="w-[80%]   h-[80%]  phone:h-[60%] phone:items-start  flex flex-col justify-center items-center">
+        <span class="w-[90%] h-[80%]  flex flex-col">
         <span
-          class="w-[90%]  phone:h-[50%] phone:text-[42px] phone:text-center  phone:w-full  h-[30%]  flex text-[50px] font-bold justify-center text-white"
+          class="w-[90%]  phone:text-[32px]  phone:text-center  phone:h-[40%] phone:w-full h-[30%]  flex text-[50px] font-bold justify-center text-white"
           >Watch everywhere.</span
         >
         <span
-          class="w-[70%] phone:h-[50%] phone:w-full phone:text-start  ml-[13%] flex text-[23px] justify-center text-white"
+          class="w-[70%]  phone:text-[20px] phone:w-full  phone:text-center phone:ml-[5%] ml-[13%] flex text-[23px] justify-center text-white"
           >Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
         </span></div>
        
-        <img  class="w-[400px]  phone:h-[30%] phone:mt-[-20%] phone:ml-[13%]  phone:w-[70%] phone:justify-evenly h-[200px] mr-[13%] mb-[10%] border-2 hover:scale-110 transition-all ease-in duration-200  "src="./diwali.gif">
+        <img  class="w-[400px]  phone:ml-[10%]  phone:mt-[-100px] phone:w-[60%] phone:h-[20%]  h-[200px] mr-[13%] mb-[10%] border-2 hover:scale-110 transition-all ease-in duration-200  "src="./diwali.gif">
       
       </div>
     
@@ -186,11 +186,11 @@
         <img  class=" mr-[10%] phone:ml-[10%] border-2 hover:scale-110 transition-all ease-in duration-200  "src="./children.jpg"></span>
         <div class="w-[50%] h-[80%] phone:w-full  phone:h-[60%] flex flex-col justify-center items-center">
           <span 
-            class="w-[70%] phone:w-[90%] phone:text-center phone:p-[10px] flex-col flex text-[50px] font-bold justify-center items-start text-white"
+            class="w-[70%] phone:w-[90%]  phone:text-[32px] phone:text-center phone:p-[10px] flex-col flex text-[50px] font-bold justify-center items-start text-white"
             >Create profiles for children.</span
           >
           <span
-            class="w-[75%] h-[20%] phone:w-full phone:text-center  ml-[5%] flex text-[23px] justify-center items-start text-white"
+            class="w-[75%] h-[20%]  phone:text-[18px] phone:w-[] phone:text-center  ml-[5%] flex text-[23px] justify-center items-start text-white"
             >Send children on adventures with their favourite characters in a space made just for them—free with your membership.
           </span></div>
       </div>
@@ -201,52 +201,52 @@
   
     
     
-<span class="w-full h-[20%]  flex justify-center items-center text-[40px] font-bold text-white">Frequently asked questions</span> 
+<span class="w-full h-[20%]  flex justify-center  phone:text-center phone:text-[32px] items-center text-[40px] font-bold text-white">Frequently asked questions</span> 
     <div class="w-full h-[80%] flex  items-center flex-col"> 
     
 <span class="w-3/4 mt-4 bg-[#676767] hover:border-2   flex justify-between items-center rounded h-12 p-4">
 
-<span class="text-2xl font-medium text-white">What is Netflix  ?</span>
+<span class="text-2xl phone:text-[15px] phone:font-[10px] font-medium text-white">What is Netflix  ?</span>
 <span class="text-3xl font-bold text-white">+</span>
 
 </span>
 
 <span class="w-3/4 mt-4 bg-[#676767]  hover:border-2  flex justify-between items-center rounded h-12 p-4">
 
-<span class="text-2xl font-medium text-white">How much does Netflix cost?</span>
+<span class="text-2xl font-medium  phone:text-[15px] phone:font-[10px] text-white">How much does Netflix cost?</span>
 <span class="text-3xl font-bold text-white">+</span>
 
 </span>
 
 <span class="w-3/4 mt-4 bg-[#676767]  hover:border-2  flex justify-between items-center rounded h-12 p-4">
 
-  <span class="text-2xl font-medium text-white">where can i see?</span>
+  <span class="text-2xl font-medium  phone:text-[15px] phone:font-[10px] text-white">where can i see?</span>
   <span class="text-3xl font-bold text-white">+</span>
   
   </span>
 
   <span class="w-3/4 mt-4 bg-[#676767]  hover:border-2  flex justify-between items-center hover:border-2  rounded h-12 p-4">
 
-    <span class="text-2xl font-medium text-white ">How do I cancel ?</span>
+    <span class="text-2xl font-medium  phone:text-[15px] phone:font-[10px] text-white ">How do I cancel ?</span>
     <span class="text-3xl font-bold text-white">+</span>
     
     </span>
 
     <span class="w-3/4 mt-4 bg-[#676767]  hover:border-2  flex justify-between items-center rounded h-12 p-4">
 
-      <span class="text-2xl font-medium text-white">What can I watch on  Netflix ?</span>
+      <span class="text-2xl font-medium  phone:text-[15px] phone:font-[10px] text-white">What can I watch on  Netflix ?</span>
       <span class="text-3xl font-bold text-white">+</span>
       
       </span>
 
       <span class="w-3/4 mt-4 bg-[#676767] hover:border-2  flex justify-between items-center rounded h-12 p-4">
 
-        <span class="text-2xl font-medium text-white">Is Netflix OK for Kids ?</span>
+        <span class="text-2xl  phone:text-[15px] phone:font-[10px] font-medium text-white">Is Netflix OK for Kids ?</span>
         <span class="text-3xl font-bold text-white">+</span>
         
         </span>
 
-        <span class="w-full h-[100px]  bg-black mt-[20px] flex justify-evenly">
+        <span class="w-full h-[100px] phone:w-[80%]  phone:justify-between bg-black mt-[20px] flex justify-evenly">
           <span
             class="w-[400px] h-[50px] flex justify-center items-center text-black"
           >
@@ -271,11 +271,11 @@
   >
   
 
-    <span class="text-gray-300 font-medium ml-[100px] justify-start "> Questions? Call<u> 000-800-919-1694</u></span>
+    <span class="text-gray-300 font-medium ml-[100px] phone:w-full phone:h-[10%] phone:ml-[20px] phone:mt[-5%] justify-start "> Questions? Call<u> 000-800-919-1694</u></span>
 
-    <div class="w-full h-[60%] p-[40px] flex  justify-center items-center ">
+    <div class="w-full h-[60%] p-[40px] flex phone:flex-col  phone:ml-[-20px] phone:h-[60%] justify-center items-center ">
 
-    <div class="w-[30%] h-[80%]   text-gray-300 flex flex-col   items-start">
+    <div class="w-[30%] h-[80%]  phone:w-full  phone:items:start  phone:h-[60%] text-gray-300 flex flex-col   items-start">
       <u class="mt-[10px] ">FAQ</u>
       <u class="mt-[10px] " >Media Centre </u>
       <u  class="mt-[10px] ">Ways to Watch</u>
@@ -284,7 +284,7 @@
 
     </div>
 
-    <div class="w-[30%] h-[80%]   text-gray-300 flex flex-col  items-start">
+    <div class="w-[30%] h-[80%]   phone:w-full  phone:items:start  phone:h-[60%] text-gray-300 flex flex-col  items-start">
       <u class="mt-[10px] ">Help centre</u>
       <u class="mt-[10px] " >Investor Relations</u>
       <u  class="mt-[10px] ">Terms of Use</u>
@@ -293,7 +293,7 @@
 
     </div>  
 
-    <div class="w-[30%] h-[80%]   text-gray-300 flex flex-col   items-start">
+    <div class="w-[30%] h-[80%]  phone:items:start text-gray-300 flex flex-col   phone:w-full  phone:h-[60%]  items-start">
       <u class="mt-[10px] ">Account </u>
       <u class="mt-[10px] " >Jobs </u>
       <u  class="mt-[10px] ">Privacy</u>
@@ -305,11 +305,11 @@
     <span class="w-[20%] text-2xl ml-[8%] flex-col  hover:border-2 flex justify-center items-center text-white">
 
 
-    <span class="w-full text-2xl ml-[8%] flex-col relative  flex justify-center items-center text-white">
+    <span class="w-full text-2xl ml-[8%]  phone:w-52 phone:h-24 phone:mt-[50px] flex-col relative  flex justify-center items-center text-white">
       <!-- english btn  -->
    
 
-        <i class="fa-solid absolute left-2  fa-house"></i>
+        <i class="fa-solid absolute left-2 phone:left-8  fa-house"></i>
       
         <select 
           name=" english"
